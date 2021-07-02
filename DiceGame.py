@@ -14,6 +14,6 @@ print('Die1 :{}'.format(dice1))
 print('Die2 :{}'.format(dice2))
 print('Total value:{}'.format(total))
 
-if(total > 7): print('won!')
-else: print('lose!')
+if(total > 7): print('{} won!'.format(Name))
+else: print('{} lose!'.format(Name))
 
